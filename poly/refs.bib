@@ -1,0 +1,245 @@
+% ============================================================
+% Références — Cours 4 : Intégration Continue & Déploiement Continu
+% Université de Rennes · IRISA / DiverSE — Olivier Barais
+% ============================================================
+
+% ---- LIVRES FONDATEURS ----
+
+@book{humble2010,
+  author    = {Humble, Jez and Farley, David},
+  title     = {Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation},
+  year      = {2010},
+  publisher = {Addison-Wesley Professional},
+  address   = {Upper Saddle River, NJ},
+  isbn      = {978-0-321-60191-9}
+}
+
+@book{kim2016devops,
+  author    = {Kim, Gene and Humble, Jez and Debois, Patrick and Willis, John},
+  title     = {The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations},
+  year      = {2016},
+  publisher = {IT Revolution Press},
+  address   = {Portland, OR},
+  isbn      = {978-1-942788-00-3}
+}
+
+@book{cohn2009agile,
+  author    = {Cohn, Mike},
+  title     = {Succeeding with Agile: Software Development Using Scrum},
+  year      = {2009},
+  publisher = {Addison-Wesley Professional},
+  address   = {Upper Saddle River, NJ},
+  isbn      = {978-0-321-57936-2},
+  note      = {Introduit la pyramide des tests (Chapitre 17)}
+}
+
+@book{fowler2018,
+  author    = {Fowler, Martin},
+  title     = {Refactoring: Improving the Design of Existing Code},
+  edition   = {2},
+  year      = {2018},
+  publisher = {Addison-Wesley Professional},
+  address   = {Upper Saddle River, NJ},
+  isbn      = {978-0-13-468599-1}
+}
+
+% ---- ARTICLES FONDATEURS ----
+
+@misc{fowler2006ci,
+  author       = {Fowler, Martin and Foemmel, Matthew},
+  title        = {Continuous Integration},
+  year         = {2006},
+  howpublished = {\url{https://martinfowler.com/articles/continuousIntegration.html}},
+  note         = {Consulté en novembre 2026. Article de référence fondateur de la pratique CI.}
+}
+
+@misc{fowler-bluegreen,
+  author       = {Fowler, Martin},
+  title        = {Blue Green Deployment},
+  year         = {2010},
+  howpublished = {\url{https://martinfowler.com/bliki/BlueGreenDeployment.html}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{fowler-canary,
+  author       = {Fowler, Martin},
+  title        = {Canary Release},
+  year         = {2013},
+  howpublished = {\url{https://martinfowler.com/bliki/CanaryRelease.html}},
+  note         = {Consulté en novembre 2026}
+}
+
+% ---- ARTICLES ACADÉMIQUES ----
+
+@article{shahin2017cicd,
+  author    = {Shahin, Mojtaba and Babar, Muhammad Ali and Zhu, Liming},
+  title     = {Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices},
+  journal   = {IEEE Access},
+  volume    = {5},
+  pages     = {3909--3943},
+  year      = {2017},
+  doi       = {10.1109/ACCESS.2017.2685629}
+}
+
+@inproceedings{hilton2016ci,
+  author    = {Hilton, Michael and Tunnell, Timothy and Huang, Kai and Marinov, Darko and Dig, Danny},
+  title     = {Usage, Costs, and Benefits of Continuous Integration in Open-Source Projects},
+  booktitle = {Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  year      = {2016},
+  pages     = {426--437},
+  doi       = {10.1145/2970276.2970314},
+  publisher = {ACM}
+}
+
+@inproceedings{vasilescu2015quality,
+  author    = {Vasilescu, Bogdan and Yu, Yue and Wang, Huaimin and Devanbu, Premkumar and Filkov, Vladimir},
+  title     = {Quality and Productivity Outcomes Relating to Continuous Integration in {GitHub}},
+  booktitle = {Proceedings of the 10th Joint Meeting on Foundations of Software Engineering (ESEC/FSE)},
+  year      = {2015},
+  pages     = {805--816},
+  doi       = {10.1145/2786805.2786850},
+  publisher = {ACM}
+}
+
+@inproceedings{zhao2017impact,
+  author    = {Zhao, Yangyang and Serebrenik, Alexander and Zhou, Yuming and Filkov, Vladimir and Vasilescu, Bogdan},
+  title     = {The Impact of Continuous Integration on Other Software Development Practices: A Large-Scale Study},
+  booktitle = {32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  year      = {2017},
+  pages     = {60--70},
+  doi       = {10.1109/ASE.2017.8115619},
+  publisher = {IEEE}
+}
+
+@inproceedings{rahman2015synthesizing,
+  author    = {Rahman, Md Tajmilur and Querel, Louis-Philippe and Rigby, Peter C. and Adams, Bram},
+  title     = {Feature Toggles: Practitioner Practices and a Case Study},
+  booktitle = {Proceedings of the 13th International Conference on Mining Software Repositories (MSR)},
+  year      = {2016},
+  pages     = {201--211},
+  doi       = {10.1145/2901739.2901745},
+  publisher = {ACM}
+}
+
+% ---- DOCUMENTATION OFFICIELLE OUTILS ----
+
+@misc{jenkins-docs,
+  author       = {{Jenkins Project}},
+  title        = {Jenkins User Documentation},
+  year         = {2024},
+  howpublished = {\url{https://www.jenkins.io/doc/}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{github-actions-docs,
+  author       = {{GitHub}},
+  title        = {GitHub Actions Documentation},
+  year         = {2024},
+  howpublished = {\url{https://docs.github.com/en/actions}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{gitlab-ci-docs,
+  author       = {{GitLab}},
+  title        = {GitLab CI/CD Documentation},
+  year         = {2024},
+  howpublished = {\url{https://docs.gitlab.com/ee/ci/}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{tekton-docs,
+  author       = {{Tekton Project}},
+  title        = {Tekton Pipelines Documentation},
+  year         = {2024},
+  howpublished = {\url{https://tekton.dev/docs/}},
+  note         = {Consulté en novembre 2026}
+}
+
+% ---- SÉCURITÉ CI/CD ----
+
+@misc{owasp-cicd-top10,
+  author       = {{OWASP Foundation}},
+  title        = {OWASP Top 10 {CI/CD} Security Risks},
+  year         = {2022},
+  howpublished = {\url{https://owasp.org/www-project-top-10-ci-cd-security-risks/}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{nist-sp800-204d,
+  author       = {{National Institute of Standards and Technology}},
+  title        = {{NIST SP 800-204D}: Strategies for the Integration of Software Supply Chain Security in {DevSecOps} CI/CD Pipelines},
+  year         = {2023},
+  howpublished = {\url{https://doi.org/10.6028/NIST.SP.800-204D}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{cisa-securing-ssc,
+  author       = {{CISA} and {NSA}},
+  title        = {Securing the Software Supply Chain: Recommended Practices for Developers},
+  year         = {2022},
+  howpublished = {\url{https://www.cisa.gov/resources-tools/resources/securing-software-supply-chain-recommended-practices-guide-developers}},
+  note         = {Consulté en novembre 2026}
+}
+
+@misc{slsa-framework,
+  author       = {{OpenSSF}},
+  title        = {Supply-chain Levels for Software Artifacts ({SLSA})},
+  year         = {2023},
+  howpublished = {\url{https://slsa.dev}},
+  note         = {Consulté en novembre 2026}
+}
+
+% ---- INCIDENTS DE SÉCURITÉ CI/CD ----
+
+@misc{solarwinds-cisa,
+  author       = {{CISA}},
+  title        = {{SolarWinds} and {SUNBURST}: Joint Advisory on Advanced Persistent Threat Compromise of Government Networks},
+  year         = {2021},
+  howpublished = {\url{https://www.cisa.gov/uscert/ncas/alerts/aa20-352a}},
+  note         = {Compromission du build system Orion. Consulté en novembre 2026}
+}
+
+@article{solarwinds-analysis,
+  author  = {Peisert, Sean and Schneier, Bruce and Okhravi, Hamed and Massacci, Fabio and Benzel, Terry and Landwehr, Carl and Mannan, Mohammad and Mirkovic, Jelena and Prakash, Atul and Michael, James Bret},
+  title   = {{SolarWinds} and the Implications for Software Supply Chain Security},
+  journal = {IEEE Security \& Privacy},
+  volume  = {19},
+  number  = {2},
+  pages   = {80--84},
+  year    = {2021},
+  doi     = {10.1109/MSEC.2021.3051235}
+}
+
+@misc{codecov-breach,
+  author       = {{Codecov}},
+  title        = {{Codecov} Security Notice: Bash Uploader Script Compromise},
+  year         = {2021},
+  howpublished = {\url{https://about.codecov.io/security-update/}},
+  note         = {Attaque sur un outil de CI très répandu. Consulté en novembre 2026}
+}
+
+@misc{github-actions-security,
+  author       = {{GitHub Security Lab}},
+  title        = {Keeping your {GitHub Actions} and workflows secure: Preventing {pwn} requests},
+  year         = {2021},
+  howpublished = {\url{https://securitylab.github.com/research/github-actions-preventing-pwn-requests/}},
+  note         = {Consulté en novembre 2026}
+}
+
+% ---- RAPPORTS INDUSTRIE ----
+
+@misc{dora2023,
+  author       = {{DORA Research Program}},
+  title        = {Accelerate: State of {DevOps} 2023},
+  year         = {2023},
+  howpublished = {\url{https://dora.dev/research/2023/dora-report/}},
+  note         = {Consulté en novembre 2026. Rapport annuel de référence sur les pratiques DevOps.}
+}
+
+@misc{sonatype-ssc-2023,
+  author       = {{Sonatype}},
+  title        = {9th Annual State of the Software Supply Chain Report},
+  year         = {2023},
+  howpublished = {\url{https://www.sonatype.com/state-of-the-software-supply-chain/open-source-supply-demand-security}},
+  note         = {Consulté en novembre 2026}
+}
