@@ -717,11 +717,18 @@ layout: default
 
 # Merci
 
-Questions ?
+<div class="mt-8 max-w-2xl mx-auto text-left">
 
 **Ressources :**
-- [GitHub Actions docs](https://docs.github.com/en/actions)
-- [Martin Fowler — Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
-- [Jenkins — Pipeline documentation](https://www.jenkins.io/doc/book/pipeline/)
-- [SLSA — Supply chain Levels for Software Artifacts](https://slsa.dev)
-- [NIST — Securing CI/CD pipelines](https://csrc.nist.gov)
+
+- 📄 **Poly du cours** : [télécharger le poly (PDF)](https://raw.githubusercontent.com/barais/devsecops.module4/refs/heads/master/poly/poly.pdf)
+* [GitHub Actions docs](https://docs.github.com/en/actions)
+* [Martin Fowler — Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+* [Jenkins — Pipeline documentation](https://www.jenkins.io/doc/book/pipeline/)
+- ➡️ **Cours suivant — Cours 5 — Conteneurs logiciels** : [https://olivier.barais.fr/devsecops.module5](https://olivier.barais.fr/devsecops.module5)
+
+</div>
+
+<div class="mt-8 text-sm opacity-50">
+Olivier Barais · Module DevSecOps
+</div>
