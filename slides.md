@@ -13,6 +13,10 @@ drawings:
 transition: slide-left
 title: "Cours 4 — CI/CD"
 mdc: true
+pdf: true
+export: true
+comark: true
+download: true
 ---
 
 # Intégration Continue  
